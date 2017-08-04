@@ -3,19 +3,17 @@ package Test;
 import Base.Base;
 import Driver.DriverManager;
 import Driver.DriverManagerFactory;
-import Driver.DriverType;
-import Helpers.PropertyReader;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-public class Run extends Base  {
+public class Hooks extends Base  {
 
-    public Run(WebDriver driver) {
+    public Hooks(WebDriver driver) {
         super(driver);
     }
 
-    public Run() {
+    public Hooks() {
         super();
         //empty constructor
     }
