@@ -5,7 +5,7 @@
 
     <test name="OpenTest">
         <classes>
-            <class name="Test.Run"/>
+            <class name="Test.ReadApi"/>
         </classes>
     </test>
 
