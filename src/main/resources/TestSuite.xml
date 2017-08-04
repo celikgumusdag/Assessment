@@ -2,9 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <!-- Suite -->
 <suite name="Suite" parallel="none">
-    <test name="Test ">
-        <packages>
-            <package name=""/>
-        </packages>
+
+    <test name="OpenTest">
+        <classes>
+            <class name="Test.Run"/>
+        </classes>
     </test>
+
 </suite>
