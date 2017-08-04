@@ -8,7 +8,7 @@ public class DriverManagerFactory {
 
         DriverManager driverManager;
 
-        DriverType type=DriverType.valueOf(PropertyReader.getProperties("driver").toUpperCase());
+        DriverType type = DriverType.valueOf(PropertyReader.getProperties("driver").toUpperCase());
 
         switch (type) {
             case CHROME:
