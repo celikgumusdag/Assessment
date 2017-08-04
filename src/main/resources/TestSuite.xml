@@ -3,9 +3,9 @@
 <!-- Suite -->
 <suite name="Suite" parallel="none">
 
-    <test name="OpenTest">
+    <test name="OpenPage">
         <classes>
-            <class name="Test.ReadApi"/>
+            <class name="Test.PageActions"/>
         </classes>
     </test>
 
