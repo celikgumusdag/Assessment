@@ -24,7 +24,7 @@ public class Run extends Base  {
     public void OpenDriver() {
         try {
             DriverManager driverManager;
-            driverManager = DriverManagerFactory.getManager(DriverType.FIREFOX);
+            driverManager = DriverManagerFactory.getManager();
             driver = driverManager.getDriver();
             driver.manage().window().maximize();
         } catch (Throwable ex) {

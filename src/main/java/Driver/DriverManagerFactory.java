@@ -1,10 +1,14 @@
 package Driver;
 
+import Helpers.PropertyReader;
+
 public class DriverManagerFactory {
 
-    public static DriverManager getManager(DriverType type) {
+    public static DriverManager getManager() {
 
         DriverManager driverManager;
+
+        DriverType type=DriverType.valueOf(PropertyReader.getProperties("driver").toUpperCase());
 
         switch (type) {
             case CHROME:
