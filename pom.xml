@@ -29,6 +29,13 @@
             <version>LATEST</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>org.json</artifactId>
+            <version>LATEST</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>
