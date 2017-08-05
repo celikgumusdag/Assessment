@@ -1,0 +1,7 @@
+@objects
+    poster    css #knownfor>.knownfor-title:first-child>a>div>.wtw-option
+
+= Poster =
+   @on desktop
+    poster:
+        image file poster.png, error %5

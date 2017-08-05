@@ -1,0 +1,7 @@
+@objects
+    logo    css #home_img
+
+= Logo =
+   @on desktop
+    logo:
+        image file logo.png, error %5
