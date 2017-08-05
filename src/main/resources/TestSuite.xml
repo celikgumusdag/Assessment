@@ -3,9 +3,11 @@
 <!-- Suite -->
 <suite name="Suite" parallel="none">
 
-    <test name="OpenPage">
+    <test name="Test">
         <classes>
             <class name="Test.PageActions"/>
+
+            <class name="Test.GalenActions"/>
         </classes>
     </test>
 
