@@ -20,6 +20,9 @@ public class DriverManagerFactory {
             case IE:
                 driverManager = new IEDriverManager();
                 break;
+            case ANDROID:
+                driverManager = new AndroidManager();
+                break;
             default:
                 driverManager = new ChromeDriverManager();
                 break;

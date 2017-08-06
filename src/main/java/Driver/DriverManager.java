@@ -6,9 +6,9 @@ public abstract class DriverManager {
 
     protected WebDriver driver;
 
-    protected abstract void createDriver();
+    protected abstract void createDriver() throws Exception;
 
-    public WebDriver getDriver() {
+    public WebDriver getDriver() throws Exception {
         if (null == driver) {
             createDriver();
         }
