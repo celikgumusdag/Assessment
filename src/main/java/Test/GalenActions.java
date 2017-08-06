@@ -20,7 +20,7 @@ public class GalenActions extends Base {
     }
 
     @Test
-    public void CompareLogo(){
+    public void CompareLogo() {
         try {
             LayoutReport layoutReport = Galen.checkLayout(driver, "specs/logo.gspec", Arrays.asList("desktop"));
         } catch (IOException e) {
@@ -29,7 +29,7 @@ public class GalenActions extends Base {
     }
 
     @Test
-    public void ComparePoster(){
+    public void ComparePoster() {
         try {
             LayoutReport layoutReport = Galen.checkLayout(driver, "specs/poster.gspec", Arrays.asList("desktop"));
         } catch (IOException e) {
