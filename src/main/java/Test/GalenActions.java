@@ -2,12 +2,11 @@ package Test;
 
 import Base.Base;
 import com.galenframework.api.Galen;
-import com.galenframework.reports.model.LayoutReport;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
-import java.util.Arrays;
+
+import static java.util.Arrays.asList;
 
 public class GalenActions extends Base {
 
@@ -22,7 +21,7 @@ public class GalenActions extends Base {
     @Test
     public void CompareLogo() {
         try {
-            LayoutReport layoutReport = Galen.checkLayout(driver, "specs/logo.gspec", Arrays.asList("desktop"));
+            Galen.checkLayout(driver, "specs/logo.gspec", asList("desktop"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -31,7 +30,7 @@ public class GalenActions extends Base {
     @Test
     public void ComparePoster() {
         try {
-            LayoutReport layoutReport = Galen.checkLayout(driver, "specs/poster.gspec", Arrays.asList("desktop"));
+            Galen.checkLayout(driver, "specs/poster.gspec", asList("desktop"));
         } catch (IOException e) {
             e.printStackTrace();
         }
