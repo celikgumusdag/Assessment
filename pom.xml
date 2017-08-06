@@ -34,6 +34,12 @@
             <version>LATEST</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+
     </dependencies>
 
 </project>
