@@ -3,5 +3,6 @@ package Driver;
 public enum DriverType {
     CHROME,
     FIREFOX,
-    IE
+    IE,
+    ANDROID
 }
