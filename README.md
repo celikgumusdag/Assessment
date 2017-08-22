@@ -35,3 +35,8 @@ You need Galen Framework to Install: http://www.galenframework.com/
 You need Appium Framework to Install: http://www.appium.io/
 
 You need Android SDK to Install: https://developer.android.com/
+
+Help
+------------
+If you got any questions don't hesitate to contact with me: [celikgumusdag@gmail.com](mailto:celikgumusdag@gmail.com)
+
